@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: rgb(204, 204, 255);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header .logo a {
+    font-size: 100px;
+    color: #002244;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li a {
+   color: #002244;
+   padding: 20px 20px;
+   font-size: 30px;
+   font-family: Pompiere;
+}
+
+header .socials {
+    padding: 10px 10px;
+    font-size: 50px;
+    color: #002244;
+}
+
+/* content */
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content h2{
+    font-size: 40px;
+    width: 400px;
+    padding-bottom: 20px;
+    color: #002244;
+    font-family: 'Barlow';
+    font-weight: bold;
+    font-style: solid;
+}
+
+.content p{
+    font-size: 20px;
+    color: #002244;
+    width: 450px;
+    padding-bottom: 15px;
+    font-family: Arial;
+}
+
+.buy-now {
+    background-color:#002244;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    font-style: solid;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.explore {
+    background-color: white;
+    color: #002244;
+    border-style: solid;
+    border-color: #002244;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    font-style: solid;
+    font-size: 15px;
+}
+
